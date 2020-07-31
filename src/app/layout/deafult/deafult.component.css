@@ -1,0 +1,35 @@
+
+:host{
+  display:flex;
+  flex-direction:column;
+  height:100%
+}
+.mat-sidenav{
+  width:330px;
+  background-color: #b00a1a;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+
+}
+
+
+
+.mat-list-item {
+  color: white;
+  text-align: center;
+}
+
+
+.mat-toolbar{
+  background-color: #b00a1a;
+  color:white;
+  padding:auto;
+}
+.mat-icon{
+  font-size:30px;
+}
+.menubar{
+  margin-right: 200px;
+}
+

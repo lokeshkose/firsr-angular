@@ -1,0 +1,35 @@
+<!--sidenav-->
+
+<mat-sidenav-container fullscreen>
+  <mat-sidenav [(opened)]="opened" mode ="over" >
+    <div >
+      <img src="">
+      <small> <p>Welcome</p></small>
+      <p>Mr. Anwar Quazi </p>
+    </div>
+    <mat-nav-list>
+      <a (click)="opened=!opened" mat-list-item  routerLink="/">Dashboard</a>
+      <a (click)="opened=!opened" mat-list-item  routerLink="/orders">orders</a>
+      <a (click)="opened=!opened" mat-list-item  routerLink="/customers">Customers</a>
+      <a  (click)="opened=!opened" mat-list-item  routerLink="/sales-executive">Sales Executive</a>
+      <a (click)="opened=!opened" mat-list-item  routerLink="/products">Products</a>
+      <a (click)="opened=!opened" mat-list-item routerLink="/capture-price">Capture Price</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar>
+
+        <button mat-icon-button (click)="opened=!opened">
+          <mat-icon>menu</mat-icon>
+        </button>
+      <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">
+        <h3 >Anwar Quazi</h3>
+        </div>
+
+        <app-menubar  fxFlex fxLayout="row" fxLayoutAlign="flex-end"></app-menubar>
+
+
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
