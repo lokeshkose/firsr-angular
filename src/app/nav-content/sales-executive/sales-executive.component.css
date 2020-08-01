@@ -1,0 +1,51 @@
+
+div{
+  display:inline-block;
+  margin:30px;
+}
+.header{
+  background-color: #b00a1a;
+  display: block;
+  text-align: center;
+  color:white;
+  margin:0px;
+}
+#user{
+  color:white;
+  background-color: #b00a1a;
+  border-radius: 50px;
+  height:100px;
+  width: 100px;
+  vertical-align: middle;
+  margin-top: -20px;
+
+}
+*{
+
+  box-sizing:border-box;
+
+}
+h3{
+  text-align: center;
+  margin-top: 35px;
+}
+
+
+#editsm{
+  outline: 1px  solid #b00a1a;
+  width: 300px;
+  color: #b00a1a;
+}
+#userdashboard{
+  width:300px;
+  background-color: #b00a1a;
+  margin-top:20px;
+  color:white;
+}
+#main{
+  text-aling:center;
+}
+input{
+  width:400px;
+  height: 40px;
+}
