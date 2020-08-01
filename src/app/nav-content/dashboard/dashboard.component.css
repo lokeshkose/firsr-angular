@@ -1,16 +1,90 @@
-td{
 
+#show{
+
+}
+#hide{
+
+}
+span{
+  color:grey;
+}
+P{
+  font-weight:bold;
+}
+
+.div1{
+  display:inline-block;
+  border: 1px solid;
+  width:150px;
+  height: 50px;
+  margin:20px;
   text-align: center;
-  width:130px;
-  border-spacing: 130px;
-
+}
+.div2{
+  display:inline-block;
+  border: 1px solid;
+  width:150px;
+  height: 90px;
+  margin:20px;
+  text-align: center;
+}
+.mtd{
+  height: 10px;
+  width: 30px;
+  background-color: #b00a1a;
+  display: inline-block;
+  margin:auto;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.todo{
+  height: 10px;
+  width: 30px;
+  background-color: #fff683;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
 
-table {
-  margin: auto;
 
+.piechart {
+
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: conic-gradient(
+    #fff683 300deg,
+    #b00a1a 60deg);
 }
-#div1{
-  display:none
+
+.piechart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 280px;
+}
+
+.piechart1 {
+
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: conic-gradient(
+    #fff683 358deg,
+    white 2deg);
+}
+
+.piechart1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 280px;
+}
+#hide{
+  display:none;
 }

@@ -11,11 +11,16 @@ a{
 }
 .header{
   background-color: #b00a1a;
-  text-align:center;
+   height: 130px;
+  text-align: center;
   color:white;
+  margin:0px;
+}
+input{
+  width:400px;
+  height: 40px;
 }
 .mat-divider{
   background-color: white;
   margin: 30px 20px 0px 20px;
 }
-
