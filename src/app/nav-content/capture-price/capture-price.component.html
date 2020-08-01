@@ -1,1 +1,43 @@
-<p>capture-price works!</p>
+<html>
+<title>Capture Price</title>
+    <body>
+            <form>
+                <label for="report_type">Select Report Type: </label>
+
+                <select name="report_type" id="report_type">
+                    <option value="price_cap">Price Capturing</option>
+                    <option value="stocking">Stocking</option>
+                </select><br><br>
+
+                <label for="sel_channel">Select Channel: </label>
+
+                <select name="sel_channel" id="sel_channel">
+                    <option value="format_trade">Format Trade</option>
+                    <option value="gen_trade">General Trade</option>
+                    <option value="sup_mkt">Super Market</option>
+                    <option value="wholesale">Wholesale</option>
+                    <option value="semiwholesale">Semiwholesale</option>
+                </select><br><br>    
+
+                <label for="shopname" required>Shop Name:</label><br>
+                <input type="text" id="shopname" name="shopname"><br><br>
+  
+                <label for="mobile">Mobile Number:</label><br>
+                <input type="text" id="mobile" name="mobile"><br><br>
+  
+                <label for="province">Province:</label><br>
+                <input type="text" id="province" name="province"><br><br>
+  
+                <label for="town">Town/ City:</label><br>
+                <input type="text" id="town" name="town"><br><br>
+  
+                <label for="compound">Compound/ Area:</label><br>
+                <input type="text" id="compound" name="compound"><br><br>
+
+                <button type="add_cust">Add Customer</button>
+
+            </form>
+    </body>
+
+
+</html>
