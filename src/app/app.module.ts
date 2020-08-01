@@ -10,9 +10,17 @@ import {DeafultModule} from "./layout/deafult/deafult.module";
 
 
 
+
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
+
+
+
+
 
 
   ],
@@ -22,6 +30,7 @@ import {DeafultModule} from "./layout/deafult/deafult.module";
     BrowserAnimationsModule,
     FlexLayoutModule,
     DeafultModule,
+
 
   ],
   providers: [],

@@ -7,18 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
 
-model:any;
-
   constructor() { }
 
   ngOnInit(): void {
-    this.model =
-      [
-        {
-          price:56,
-          kg:67
-        }
-      ]
+
   }
   show()
   {

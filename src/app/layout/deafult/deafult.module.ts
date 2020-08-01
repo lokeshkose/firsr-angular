@@ -18,6 +18,17 @@ import {FlexLayoutModule} from "@angular/flex-layout";
 import {MatListModule} from "@angular/material/list";
 import {MatTableModule} from "@angular/material/table";
 import {MatSelectModule} from "@angular/material/select";
+import {MatInputModule} from "@angular/material/input";
+import {EdituserComponent} from "../../nav-content/customers/edituser/edituser.component";
+import {UserdashboardComponent} from "../../nav-content/customers/userdashboard/userdashboard.component";
+import {ParentcategoriesComponent} from "../../nav-content/products/parentcategories/parentcategories.component";
+import {ProductsComponent} from "../../nav-content/products/products.component";
+import {CornchipsComponent} from "../../nav-content/products/parentcategories/cornchips/cornchips.component";
+import {ParasboxComponent} from "../../nav-content/products/parentcategories/cornchips/parasbox/parasbox.component";
+import {ProductComponent} from "../../nav-content/products/parentcategories/cornchips/parasbox/product/product.component";
+
+
+
 
 
 
@@ -30,8 +41,17 @@ import {MatSelectModule} from "@angular/material/select";
     DashboardComponent,
     OrdersComponent,
     CustomersComponent,
+    EdituserComponent,
+    UserdashboardComponent,
+    ProductsComponent,
+    CornchipsComponent,
+    ParasboxComponent,
+    ProductComponent,
+
     SalesExecutiveComponent,
-    CapturePriceComponent
+    CapturePriceComponent,
+    ParentcategoriesComponent
+
   ],
   imports: [
     CommonModule,
@@ -46,7 +66,10 @@ import {MatSelectModule} from "@angular/material/select";
     FlexLayoutModule,
     MatListModule,
     MatTableModule,
-    MatSelectModule
+    MatSelectModule,
+    MatInputModule,
+    FlexLayoutModule
+
 
   ]
 })

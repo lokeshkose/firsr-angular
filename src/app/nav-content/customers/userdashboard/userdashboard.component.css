@@ -1,0 +1,16 @@
+#rst1{
+  background-color: #b00a1a;
+  margin:20px;
+}
+#rst2{
+  background-color: #0788b0;
+}
+.div1{
+  display:inline-block;
+  margin: 20px;
+  border: 1px solid;
+  text-align: center;
+  width:80px;
+  height: 50px;
+}
+
