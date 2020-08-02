@@ -1,8 +1,11 @@
 #main{
+<<<<<<< HEAD
   padding:0px;
+=======
+>>>>>>> 2e1179fabae076cec4300788c5ee72c6991bc0fb
   text-align: center;
 }
-.header{
+header{
   background-color: #b00a1a;
   color:white;
   text-align: center;

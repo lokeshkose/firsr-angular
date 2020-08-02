@@ -16,11 +16,9 @@ import {DeafultModule} from "./layout/deafult/deafult.module";
 
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
-
 
 
 

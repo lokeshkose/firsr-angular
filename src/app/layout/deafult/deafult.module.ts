@@ -31,7 +31,17 @@ import {ProductComponent} from "../../nav-content/products/parentcategories/corn
 import {Edituser1Component} from "../../nav-content/customers/edituser1/edituser1.component";
 import {Userdashboard1Component} from "../../nav-content/customers/userdashboard1/userdashboard1.component";
 import {WashimorderComponent} from "../../nav-content/orders/washimorder/washimorder.component";
+<<<<<<< HEAD
 import { EditsmComponent } from 'src/app/nav-content/sales-executive/editsm/editsm.component';
+=======
+import {SweetComponent} from "../../nav-content/products/sweet/sweet.component";
+import {PuffsComponent} from "../../nav-content/products/puffs/puffs.component";
+import {PotatoComponent} from "../../nav-content/products/potato/potato.component";
+import {PelletsComponent} from "../../nav-content/products/pellets/pellets.component";
+import {NaksComponent} from "../../nav-content/products/naks/naks.component";
+import {HiphopComponent} from "../../nav-content/products/sweet/hiphop/hiphop.component";
+import {ChocodippsComponent} from "../../nav-content/products/sweet/chocodipps/chocodipps.component";
+>>>>>>> 2e1179fabae076cec4300788c5ee72c6991bc0fb
 
 
 
@@ -48,14 +58,24 @@ import { EditsmComponent } from 'src/app/nav-content/sales-executive/editsm/edit
     CornchipsComponent,
     ParasboxComponent,
     ProductComponent,
-
     SalesExecutiveComponent,
     CapturePriceComponent,
     ParentcategoriesComponent,
     Userdashboard1Component,
     WashimorderComponent,
+<<<<<<< HEAD
     EditsmComponent,
     UserdashboardsmComponent
+=======
+    SweetComponent,
+    PuffsComponent,
+    PotatoComponent,
+    PelletsComponent,
+    NaksComponent,
+    CornchipsComponent,
+    HiphopComponent,
+    ChocodippsComponent
+>>>>>>> 2e1179fabae076cec4300788c5ee72c6991bc0fb
 
 
 
