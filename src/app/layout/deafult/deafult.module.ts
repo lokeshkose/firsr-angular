@@ -1,4 +1,4 @@
-import { UserdashboardsmComponent } from './../../nav-content/sales-executive/userdashboardsm/userdashboardsm.component';
+
 import { UserdashboardComponent } from './../../nav-content/customers/userdashboard/userdashboard.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -27,21 +27,19 @@ import {ProductsComponent} from "../../nav-content/products/products.component";
 import {CornchipsComponent} from "../../nav-content/products/parentcategories/cornchips/cornchips.component";
 import {ParasboxComponent} from "../../nav-content/products/parentcategories/cornchips/parasbox/parasbox.component";
 import {ProductComponent} from "../../nav-content/products/parentcategories/cornchips/parasbox/product/product.component";
-
 import {Edituser1Component} from "../../nav-content/customers/edituser1/edituser1.component";
 import {Userdashboard1Component} from "../../nav-content/customers/userdashboard1/userdashboard1.component";
 import {WashimorderComponent} from "../../nav-content/orders/washimorder/washimorder.component";
-<<<<<<< HEAD
-import { EditsmComponent } from 'src/app/nav-content/sales-executive/editsm/editsm.component';
-=======
 import {SweetComponent} from "../../nav-content/products/sweet/sweet.component";
 import {PuffsComponent} from "../../nav-content/products/puffs/puffs.component";
 import {PotatoComponent} from "../../nav-content/products/potato/potato.component";
 import {PelletsComponent} from "../../nav-content/products/pellets/pellets.component";
 import {NaksComponent} from "../../nav-content/products/naks/naks.component";
 import {HiphopComponent} from "../../nav-content/products/sweet/hiphop/hiphop.component";
-import {ChocodippsComponent} from "../../nav-content/products/sweet/chocodipps/chocodipps.component";
->>>>>>> 2e1179fabae076cec4300788c5ee72c6991bc0fb
+import {EditsmComponent} from "../../nav-content/sales-executive/editsm/editsm.component";
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {UserdashboardsmComponent} from "../../nav-content/sales-executive/userdashboardsm/userdashboardsm.component";
+
 
 
 
@@ -63,10 +61,10 @@ import {ChocodippsComponent} from "../../nav-content/products/sweet/chocodipps/c
     ParentcategoriesComponent,
     Userdashboard1Component,
     WashimorderComponent,
-<<<<<<< HEAD
+
     EditsmComponent,
-    UserdashboardsmComponent
-=======
+    Userdashboard1Component,
+
     SweetComponent,
     PuffsComponent,
     PotatoComponent,
@@ -74,10 +72,7 @@ import {ChocodippsComponent} from "../../nav-content/products/sweet/chocodipps/c
     NaksComponent,
     CornchipsComponent,
     HiphopComponent,
-    ChocodippsComponent
->>>>>>> 2e1179fabae076cec4300788c5ee72c6991bc0fb
-
-
+    UserdashboardsmComponent
 
   ],
 
@@ -97,9 +92,14 @@ import {ChocodippsComponent} from "../../nav-content/products/sweet/chocodipps/c
     MatSelectModule,
     MatInputModule,
     FlexLayoutModule,
+    MatFormFieldModule,
+    MatSelectModule
+
 
 
 
   ]
 })
-export class DeafultModule { }
+export class DeafultModule {
+
+}
