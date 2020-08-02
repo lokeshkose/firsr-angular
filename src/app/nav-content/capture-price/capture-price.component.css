@@ -1,7 +1,7 @@
 #main{
-  padding:20px;
+  text-align: center;
 }
-.header{
+header{
   background-color: #b00a1a;
   color:white;
   text-align: center;

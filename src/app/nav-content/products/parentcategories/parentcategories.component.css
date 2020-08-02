@@ -1,7 +1,4 @@
-.mat-icon{
-  margin:auto;
 
-}
 a{
   text-decoration:none;
   color:black;
@@ -9,7 +6,7 @@ a{
   margin-left: 20px;
   margin-top:20px;
 }
-.header{
+header{
   background-color: #b00a1a;
    height: 130px;
   text-align: center;
@@ -24,4 +21,9 @@ input{
   background-color: white;
   margin: 30px 20px 0px 20px;
 }
+p{
+  display:inline-block;
+  width: 200px;
+}
+
 

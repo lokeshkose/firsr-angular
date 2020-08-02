@@ -1,9 +1,11 @@
 #rst1{
   background-color: #b00a1a;
   margin:20px;
+  width:300px;
 }
 #rst2{
   background-color: #0788b0;
+  width:300px;
 }
 .div1{
   display:inline-block;
@@ -44,4 +46,7 @@
 
 #main{
   text-align: center;
+}
+span{
+  color:gray;
 }

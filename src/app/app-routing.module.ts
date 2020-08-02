@@ -16,6 +16,13 @@ import {ProductComponent} from "./nav-content/products/parentcategories/cornchip
 import {Edituser1Component} from "./nav-content/customers/edituser1/edituser1.component";
 import {Userdashboard1Component} from "./nav-content/customers/userdashboard1/userdashboard1.component";
 import {WashimorderComponent} from "./nav-content/orders/washimorder/washimorder.component";
+import {SweetComponent} from "./nav-content/products/sweet/sweet.component";
+import {PuffsComponent} from "./nav-content/products/puffs/puffs.component";
+import {PotatoComponent} from "./nav-content/products/potato/potato.component";
+import {PelletsComponent} from "./nav-content/products/pellets/pellets.component";
+import {NaksComponent} from "./nav-content/products/naks/naks.component";
+import {HiphopComponent} from "./nav-content/products/sweet/hiphop/hiphop.component";
+import {ChocodippsComponent} from "./nav-content/products/sweet/chocodipps/chocodipps.component";
 
 
 
@@ -41,8 +48,15 @@ const routes: Routes = [{
     ]},
     {path: 'products', children:[
       {path:'', component: ProductsComponent,},
-      { path: 'parentcategories', component: ParentcategoriesComponent},
-
+      { path: 'sweet', children:[
+        {path:'', component:SweetComponent},
+        {path: 'hiphop', component:HiphopComponent},
+        {path:'chocodipps',component:ChocodippsComponent}
+      ]},
+      { path: 'puffs', component: PuffsComponent},
+      { path: 'potato', component: PotatoComponent},
+      { path: 'pellets', component: PelletsComponent},
+      { path: 'naks', component: NaksComponent},
     ]},
 
     {path: 'products/parentcategories', children:[

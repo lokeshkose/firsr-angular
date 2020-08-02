@@ -1,8 +1,8 @@
 <div id="main">
 <button mat-button id="rst1">VIEW STATEMENTS</button>
-<button mat-button id="rst2">PENDING INVOICE</button>
+<button mat-button id="rst2">PENDING INVOICE</button><br>
 
-<h1>TARGET vs ACHIEVEMENT</h1>
+<h1 id="ta">TARGET vs ACHIEVEMENT</h1>
 <mat-form-field>
   <mat-select>
     <mat-option ><mat-radio-button Value="Total" (change)="show($event)" labelPosition="before">Total</mat-radio-button></mat-option>
@@ -15,7 +15,6 @@
     <span>Target</span>
     <p>0.00</p>
   </div>
-
   <div  class="div1">
     <span>MTD Achieved</span>
     <p>0.00</p>
@@ -54,7 +53,7 @@
     <span>Balance To Do</span>
     <p>0.00</p>
   </div>
-  <br>
+<br>
 
   <div class="mtd"></div><span>MTD Achieved</span>
   <div class="todo"></div><span>Balance To Do</span>

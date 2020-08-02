@@ -30,6 +30,13 @@ import {ProductComponent} from "../../nav-content/products/parentcategories/corn
 import {Edituser1Component} from "../../nav-content/customers/edituser1/edituser1.component";
 import {Userdashboard1Component} from "../../nav-content/customers/userdashboard1/userdashboard1.component";
 import {WashimorderComponent} from "../../nav-content/orders/washimorder/washimorder.component";
+import {SweetComponent} from "../../nav-content/products/sweet/sweet.component";
+import {PuffsComponent} from "../../nav-content/products/puffs/puffs.component";
+import {PotatoComponent} from "../../nav-content/products/potato/potato.component";
+import {PelletsComponent} from "../../nav-content/products/pellets/pellets.component";
+import {NaksComponent} from "../../nav-content/products/naks/naks.component";
+import {HiphopComponent} from "../../nav-content/products/sweet/hiphop/hiphop.component";
+import {ChocodippsComponent} from "../../nav-content/products/sweet/chocodipps/chocodipps.component";
 
 
 
@@ -46,12 +53,19 @@ import {WashimorderComponent} from "../../nav-content/orders/washimorder/washimo
     CornchipsComponent,
     ParasboxComponent,
     ProductComponent,
-
     SalesExecutiveComponent,
     CapturePriceComponent,
     ParentcategoriesComponent,
     Userdashboard1Component,
-    WashimorderComponent
+    WashimorderComponent,
+    SweetComponent,
+    PuffsComponent,
+    PotatoComponent,
+    PelletsComponent,
+    NaksComponent,
+    CornchipsComponent,
+    HiphopComponent,
+    ChocodippsComponent
 
 
 
