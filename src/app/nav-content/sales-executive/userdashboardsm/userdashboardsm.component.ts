@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-userdashboard',
-  templateUrl: './userdashboard.component.html',
-  styleUrls: ['./userdashboard.component.css']
+  selector: 'app-userdashboardsm',
+  templateUrl: './userdashboardsm.component.html',
+  styleUrls: ['./userdashboardsm.component.css']
 })
-export class UserdashboardComponent implements OnInit {
+export class UserdashboardsmComponent implements OnInit {
 
   constructor() { }
 

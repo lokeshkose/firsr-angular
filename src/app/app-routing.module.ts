@@ -1,3 +1,4 @@
+import { EditsmComponent } from './nav-content/sales-executive/editsm/editsm.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {DeafultComponent} from "./layout/deafult/deafult.component";
@@ -16,6 +17,7 @@ import {ProductComponent} from "./nav-content/products/parentcategories/cornchip
 import {Edituser1Component} from "./nav-content/customers/edituser1/edituser1.component";
 import {Userdashboard1Component} from "./nav-content/customers/userdashboard1/userdashboard1.component";
 import {WashimorderComponent} from "./nav-content/orders/washimorder/washimorder.component";
+import { UserdashboardsmComponent } from './nav-content/sales-executive/userdashboardsm/userdashboardsm.component';
 
 
 
@@ -64,9 +66,12 @@ const routes: Routes = [{
 
 
     {
-    path: 'sales-executive',
-    component: SalesExecutiveComponent,
-  },{
+      path: 'sales-executive',children:[
+        {path:'', component: SalesExecutiveComponent,},
+        {path: 'editsm', component: EditsmComponent},
+        {path: 'userdashboard', component: UserdashboardsmComponent}
+      ]},
+  {
     path:'capture-price',
     component: CapturePriceComponent
   }]

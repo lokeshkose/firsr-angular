@@ -1,41 +1,59 @@
-<div id="main">
-  <div class="header"><h1>Capture price for this Customer</h1></div>
-    <body>
-            <form>
-                <label for="report_type">Select Report Type: </label>
+<body>
+  <div id="main">
+    <div class="header">
+      <h1>Capture price for this Customer</h1>
+    </div>
 
-                <select name="report_type" id="report_type">
-                    <option value="price_cap">Price Capturing</option>
-                    <option value="stocking">Stocking</option>
-                </select><br><br>
+    <mat-form-field>
+      <!-- <label>Select Report Type:</label> -->
+      <mat-form-field appearance=fill class ="lab">
+        <mat-label>Select Report Type:</mat-label>
+        <mat-select  disableRipple>
+          <mat-option value="Price Capturing">Price Capturing</mat-option>
+          <mat-option value="Stocking">Stocking</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <br>
 
-                <label for="sel_channel">Select Channel: </label>
+      <mat-form-field appearance=fill class="lab">
+        <mat-label>Select Channel:</mat-label>
+        <mat-select disableRipple>
+          <mat-option value="Format Trade">Format Trade</mat-option>
+          <mat-option value="General Trade">General Trade</mat-option>
+          <mat-option value="Super Market">Super Market</mat-option>
+          <mat-option value="Wholesale">Wholesale</mat-option>
+          <mat-option value="semiholesale">Semiwholesale</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <br>
 
-                <select name="sel_channel" id="sel_channel">
-                    <option value="format_trade">Format Trade</option>
-                    <option value="gen_trade">General Trade</option>
-                    <option value="sup_mkt">Super Market</option>
-                    <option value="wholesale">Wholesale</option>
-                    <option value="semiwholesale">Semiwholesale</option>
-                </select><br><br>
+      <mat-form-field class="lab">
+        <mat-label>Shop Name: </mat-label>
+        <input matInput>
+      </mat-form-field><br>
 
-                <label for="shopname" required>Shop Name:</label><br>
-                <input type="text" id="shopname" name="shopname"><br><br>
+      <mat-form-field class="lab">
+        <mat-label>Mobile Number: </mat-label>
+        <input matInput>
+      </mat-form-field><br>
 
-                <label for="mobile">Mobile Number:</label><br>
-                <input type="text" id="mobile" name="mobile"><br><br>
+      <mat-form-field class="lab">
+        <mat-label>Province: </mat-label>
+        <input matInput>
+      </mat-form-field><br>
 
-                <label for="province">Province:</label><br>
-                <input type="text" id="province" name="province"><br><br>
+      <mat-form-field class="lab">
+        <mat-label>Town/ City: </mat-label>
+        <input matInput>
+      </mat-form-field><br>
 
-                <label for="town">Town/ City:</label><br>
-                <input type="text" id="town" name="town"><br><br>
+      <mat-form-field class="lab">
+        <mat-label>Compound/ Area: </mat-label>
+        <input matInput>
+      </mat-form-field><br>
 
-                <label for="compound">Compound/ Area:</label><br>
-                <input type="text" id="compound" name="compound"><br><br>
+      <button mat-button type="add_cust">Add Customer</button>
 
-                <button type="add_cust">Add Customer</button>
-
-            </form>
-    </body>
+    </mat-form-field>
   </div>
+</body>

@@ -1,3 +1,5 @@
+import { UserdashboardsmComponent } from './../../nav-content/sales-executive/userdashboardsm/userdashboardsm.component';
+import { UserdashboardComponent } from './../../nav-content/customers/userdashboard/userdashboard.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {DeafultComponent} from "./deafult.component";
@@ -20,7 +22,6 @@ import {MatTableModule} from "@angular/material/table";
 import {MatSelectModule} from "@angular/material/select";
 import {MatInputModule} from "@angular/material/input";
 import {EdituserComponent} from "../../nav-content/customers/edituser/edituser.component";
-import {UserdashboardComponent} from "../../nav-content/customers/userdashboard/userdashboard.component";
 import {ParentcategoriesComponent} from "../../nav-content/products/parentcategories/parentcategories.component";
 import {ProductsComponent} from "../../nav-content/products/products.component";
 import {CornchipsComponent} from "../../nav-content/products/parentcategories/cornchips/cornchips.component";
@@ -30,6 +31,7 @@ import {ProductComponent} from "../../nav-content/products/parentcategories/corn
 import {Edituser1Component} from "../../nav-content/customers/edituser1/edituser1.component";
 import {Userdashboard1Component} from "../../nav-content/customers/userdashboard1/userdashboard1.component";
 import {WashimorderComponent} from "../../nav-content/orders/washimorder/washimorder.component";
+import { EditsmComponent } from 'src/app/nav-content/sales-executive/editsm/editsm.component';
 
 
 
@@ -51,7 +53,9 @@ import {WashimorderComponent} from "../../nav-content/orders/washimorder/washimo
     CapturePriceComponent,
     ParentcategoriesComponent,
     Userdashboard1Component,
-    WashimorderComponent
+    WashimorderComponent,
+    EditsmComponent,
+    UserdashboardsmComponent
 
 
 
