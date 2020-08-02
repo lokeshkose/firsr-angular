@@ -3,11 +3,14 @@ span{
 }
 .mat-button{
   outline: 1px solid #b00a1a;
+  text-align: center;
+
 }
 #hide{
   display:none;
+  margin:30px;
 }
-.header{
+header{
   background-color: #b00a1a;
    height: 130px;
   text-align: center;
@@ -21,4 +24,9 @@ input{
 .mat-divider{
   background-color: white;
   margin: 30px 20px 0px 20px;
+}
+
+
+.parent{
+  text-align: center;
 }

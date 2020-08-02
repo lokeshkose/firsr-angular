@@ -1,9 +1,11 @@
 
-#show{
+
+#parent{
+  text-align: center;
 
 }
 #hide{
-
+  display:none;
 }
 span{
   color:grey;
@@ -33,21 +35,20 @@ P{
   width: 30px;
   background-color: #b00a1a;
   display: inline-block;
-  margin:auto;
-  margin-left: 20px;
-  margin-right: 10px;
+  margin-left: -100px;
+  margin-right: 20px;
+
+
 }
 .todo{
   height: 10px;
   width: 30px;
   background-color: #fff683;
   display: inline-block;
+  margin-right: 20px;
   margin-left: 20px;
-  margin-right: 10px;
+
 }
-
-
-
 .piechart {
 
   display: block;
@@ -58,14 +59,12 @@ P{
   background-image: conic-gradient(
     #fff683 300deg,
     #b00a1a 60deg);
+  display:inline-block;
+  margin-left: -200px;
+  margin-bottom: 50px;
+
 }
 
-.piechart {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0px 0px 0px 280px;
-}
 
 .piechart1 {
 
@@ -77,14 +76,13 @@ P{
   background-image: conic-gradient(
     #fff683 358deg,
     white 2deg);
-}
+  display:inline-block;
+  margin-left: -200px;
+  margin-bottom: 50px;
 
-.piechart1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0px 0px 0px 280px;
+
 }
-#hide{
-  display:none;
+.main {
+  text-align: center;
+
 }

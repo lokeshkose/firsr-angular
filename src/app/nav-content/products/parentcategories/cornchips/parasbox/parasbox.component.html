@@ -1,22 +1,28 @@
 
 
 
-<div class="header"><h1>PARAS 50KG X 24PKTS</h1>
+<header><h1>PARAS 50KG X 24PKTS</h1>
   <input type="search" placeholder="Search any product in PARAS 50KG X 24PKTS">
   <mat-divider></mat-divider>
-</div>
+</header>
+
 
 <div id="show">
+  <div class="parent">
   <mat-icon></mat-icon><span id="top">Demo[1234]</span><br>
   <mat-icon></mat-icon><span>Price:1000</span><span>Type:Standard Price</span><br>
-  <span>ZMW</span><br>
-  <span>SysCode:1234</span>
+  <span id="zw">ZMW</span><br>
+  <span id="sys">SysCode:1234</span>
   <span>CaseSize:12.00</span>
-  <mat-divider></mat-divider>
-  <button mat-button (click)="show()"><mat-icon></mat-icon>Edit</button>
-  <mat-divider></mat-divider>
+ <hr>
+
+  <button mat-button (click)="show()">Edit</button>
+ <hr>
 </div>
+  </div>
+
 <div id="hide">
+  <div class="parent">
   <mat-form-field class="lab">
     <mat-label>Name</mat-label>
     <input matInput value="Demo">
@@ -32,6 +38,7 @@
   <mat-form-field class="lab" >
     <mat-label>Price</mat-label>
     <input matInput value="1000.0">
-  </mat-form-field>
+  </mat-form-field><br>
   <button mat-button (click)="hide()">Save</button>
+</div>
 </div>

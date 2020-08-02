@@ -1,11 +1,18 @@
+
+<div id="parent">
 <h1>TARGET vs ACHIEVEMENT</h1>
+
 <mat-form-field>
   <mat-select>
-    <mat-option ><mat-radio-button Value="Total" (change)="show($event)">Total</mat-radio-button></mat-option>
-    <mat-option ><mat-radio-button Value="CORN CHIPS" (change)="hide($event)">CORN CHIPS</mat-radio-button></mat-option>
-  </mat-select>
+
+    <mat-option ><mat-radio-button class="radio" Value="Total" (change)="show($event)" labelPosition="before" color="primary">Total</mat-radio-button></mat-option>
+    <mat-option ><mat-radio-button Value="CORN CHIPS" (change)="hide($event)" labelPosition="before" color="primary">CORN CHIPS</mat-radio-button></mat-option>
+
+</mat-select>
 </mat-form-field>
 
+</div>
+<div class="main">
 <div id="show">
 <div class="div1">
   <span>Target</span>
@@ -40,14 +47,17 @@
     <p>-12.78</p>
   </div>
   <br>
+  <div style="text-align: center">
   <div class="mtd"></div><span>MTD Achieved</span>
   <div class="todo"></div><span>Balance To Do</span>
   <div class="piechart"></div>
   <p>*MTD: Month Till Date</p>
 </div>
-
+  </div>
+</div>
 
 <div id="hide">
+  <div class="main">
   <div class="div1">
     <span>Target</span>
     <p>0.00</p>
@@ -79,17 +89,18 @@
   <div  class="div1">
     <span>%Growth over LYMTD</span>
     <p>0%</p>
-  </div>
+    </div>
   <br>
+
   <div class="mtd"></div><span>MTD Achieved</span>
+
   <div class="todo"></div><span>Balance To Do</span>
+
   <div class="piechart1"></div>
   <p>*MTD: Month Till Date</p>
-</div>
-
-
-
-<div>
+    </div>
+  </div>
+<div class="main">
   <h1>OUTSTANDING</h1>
   <div class="div1">
     <span>Total Credit Limit</span>
@@ -109,7 +120,4 @@
     <span>Available Credit Limit</span>
     <p>NA</p>
   </div>
-
 </div>
-
-

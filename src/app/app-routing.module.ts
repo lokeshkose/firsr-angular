@@ -13,6 +13,9 @@ import {ParentcategoriesComponent} from "./nav-content/products/parentcategories
 import {CornchipsComponent} from "./nav-content/products/parentcategories/cornchips/cornchips.component";
 import {ParasboxComponent} from "./nav-content/products/parentcategories/cornchips/parasbox/parasbox.component";
 import {ProductComponent} from "./nav-content/products/parentcategories/cornchips/parasbox/product/product.component";
+import {Edituser1Component} from "./nav-content/customers/edituser1/edituser1.component";
+import {Userdashboard1Component} from "./nav-content/customers/userdashboard1/userdashboard1.component";
+import {WashimorderComponent} from "./nav-content/orders/washimorder/washimorder.component";
 
 
 
@@ -24,13 +27,17 @@ const routes: Routes = [{
     path: '',
     component: DashboardComponent,
   }, {
-    path: 'orders',
-    component: OrdersComponent,
-  },
+    path: 'orders',children:[
+      {path:'', component: OrdersComponent,},
+      {path: 'washimorder', component: WashimorderComponent}
+    ]},
+
     {path: 'customers', children:[
         {path:'', component: CustomersComponent,},
       { path: 'edituser', component: EdituserComponent},
-      {path: 'userdashboard', component: UserdashboardComponent,}
+      { path: 'edituser1', component: Edituser1Component},
+      {path: 'userdashboard', component: UserdashboardComponent,},
+      {path: 'userdashboard1', component: Userdashboard1Component,}
     ]},
     {path: 'products', children:[
       {path:'', component: ProductsComponent,},

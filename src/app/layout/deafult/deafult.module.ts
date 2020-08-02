@@ -27,11 +27,9 @@ import {CornchipsComponent} from "../../nav-content/products/parentcategories/co
 import {ParasboxComponent} from "../../nav-content/products/parentcategories/cornchips/parasbox/parasbox.component";
 import {ProductComponent} from "../../nav-content/products/parentcategories/cornchips/parasbox/product/product.component";
 
-
-
-
-
-
+import {Edituser1Component} from "../../nav-content/customers/edituser1/edituser1.component";
+import {Userdashboard1Component} from "../../nav-content/customers/userdashboard1/userdashboard1.component";
+import {WashimorderComponent} from "../../nav-content/orders/washimorder/washimorder.component";
 
 
 
@@ -42,6 +40,7 @@ import {ProductComponent} from "../../nav-content/products/parentcategories/corn
     OrdersComponent,
     CustomersComponent,
     EdituserComponent,
+    Edituser1Component,
     UserdashboardComponent,
     ProductsComponent,
     CornchipsComponent,
@@ -50,9 +49,14 @@ import {ProductComponent} from "../../nav-content/products/parentcategories/corn
 
     SalesExecutiveComponent,
     CapturePriceComponent,
-    ParentcategoriesComponent
+    ParentcategoriesComponent,
+    Userdashboard1Component,
+    WashimorderComponent
+
+
 
   ],
+
   imports: [
     CommonModule,
     RouterModule,
@@ -68,7 +72,8 @@ import {ProductComponent} from "../../nav-content/products/parentcategories/corn
     MatTableModule,
     MatSelectModule,
     MatInputModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+
 
 
   ]

@@ -1,8 +1,8 @@
-#main{
-  padding:20px;
-}
-.header{
+header{
   background-color: #b00a1a;
+  text-align: center;
   color:white;
+}
+div{
   text-align: center;
 }

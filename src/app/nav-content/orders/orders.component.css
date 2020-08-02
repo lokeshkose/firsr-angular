@@ -1,4 +1,25 @@
 p{
-  text-align:center;
-  margin-top:200px
+  display:inline-block;
+  color:gray;
+  margin: 0px 20px 5px 5px;
+
+}
+#bill{
+  margin-left: 100px;
+}
+
+.mat-button{
+  outline: 1px solid #b00a1a;
+  margin:10px 0px 0px 50px;
+}
+header {
+  background-color: #b00a1a;
+  text-align: center;
+  color:white;
+}
+#main{
+  text-align: center;
+}
+#child{
+  margin-top:30px;
 }
