@@ -1,6 +1,6 @@
 # Set-up Guide
 
-#### To run Tradekings App on your local windows system follow this steps :- 
+#### To run YOYO App on your local windows system follow this steps :- 
 
 1. Install [Node js V10.14.0](https://nodejs.org/dist/v10.14.0/node-v10.14.0-x64.msi) or above.
 2. Install Angular CLI using npm on Terminal, Run this command  `npm install -g @angular/cli
